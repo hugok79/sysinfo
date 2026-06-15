@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: https://github.com/BodhiDev/sysinfo/issues\n"
-"POT-Creation-Date: 2026-06-14 21:36+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-15 15:03+0200\n"
 "PO-Revision-Date: 2026-06-14 22:32+0200\n"
 "Last-Translator: diekrz2\n"
 "Language-Team: Bodhi Team\n"
@@ -215,3 +215,7 @@ msgstr "Informazioni sistema"
 #: data/sysinfo.desktop.in.h:2
 msgid "Display hardware and system information"
 msgstr "Visualizza info sistema e hardware"
+
+#: data/sysinfo.desktop.in.h:3
+msgid "system;hardware;cpu;memory;disk;pci;network;battery;"
+msgstr "sistema;hardware;cpu;memoria;disco;pci;rete;batteria;"
