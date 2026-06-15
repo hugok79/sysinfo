@@ -6,4 +6,5 @@ Exec=sysinfo
 Icon=sysinfo
 Categories=System;
 Terminal=false
+_Keywords=system;hardware;cpu;memory;disk;pci;network;battery;
 StartupNotify=true
