@@ -184,12 +184,12 @@ uname -a
 echo
 echo "CPU:"
 echo "======================================="
-inxi -C
+inxi -c 0 -C | sed '/^CPU:$/d'
 
 echo
 echo "GPU:"
 echo "======================================="
-inxi -G
+inxi -c 0 -G | sed '/^Graphics:$/d'
 
 echo
 echo "MEMORY:"
@@ -204,7 +204,7 @@ df
 echo
 echo "NETWORK:"
 echo "======================================="
-inxi -N
+inxi -c 0 -N | sed '/^Network:$/d'
 
 } > "$REPORT"  
   
