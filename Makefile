@@ -95,7 +95,7 @@ uninstall:
 clean:
 	rm -f sysinfo.desktop
 	rm -f data/sysinfo.desktop.in.h
-	rm -f po/*.mo po/*.pot
+	rm -f po/*.mo
 
 distclean: clean
 
